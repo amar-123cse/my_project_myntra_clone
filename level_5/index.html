@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display property</title>
+    <style>
+        *{
+            margin: 2px;
+            padding: 2px;
+        }
+        .box{
+            background-color: blueviolet;
+            height: 40px;
+            width: 40px;
+            color: white;
+            margin: 5px;
+             
+            /*display: inline; isme height width set nhi kr skte ye horizontal sift ho jayega*/
+            display: inline-block; /*height width set kr skte hai ab hm*/
+            
+
+        }
+        #box1{
+            display: none; /*ye box1 ko hta dega*/
+        }
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">box 1</div>
+    <div id="box2" class="box">box 2</div>
+
+    
+</body>
+</html>
